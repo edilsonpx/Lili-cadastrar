@@ -1,4 +1,18 @@
- const firebaseConfig = {
+ 
+const firebaseConfig = {
+  apiKey: "AIzaSyA20VD5hbnAUF0n0i5PVvXWuSvSxq0WTvo",
+  authDomain: "lali-acessorios-98d44.firebaseapp.com",
+  projectId: "lali-acessorios-98d44",
+  storageBucket: "lali-acessorios-98d44.appspot.com",
+  messagingSenderId: "556954457956",
+  appId: "1:556954457956:web:4f41def5b02968ea4b8c71",
+  measurementId: "G-QFFQP8SKX1"
+};
+
+
+/*
+
+const firebaseConfig = {
     apiKey: "AIzaSyBm_F3ygRCrDJCbj6EboyPwo3kfmR3E_H8",
     authDomain: "lali-acessorios-7de24.firebaseapp.com",
     projectId: "lali-acessorios-7de24",
@@ -7,7 +21,7 @@
     appId: "1:222942048953:web:9eb3974df4f225fc03e168",
     measurementId: "G-BT7WQYJR0B"
   };
-
+*/
 
    firebase.initializeApp(firebaseConfig);
 
