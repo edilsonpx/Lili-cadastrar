@@ -1471,7 +1471,7 @@ const formCliente15 = document.querySelector('#form-cliente15');
             let comprovanteText = document.querySelector('[name=comprovante01]').value;
            
 
-            const uploadTask01 = storage.ref('titulo3/' + name).put(name);
+            const uploadTask01 = storage.ref('titulo4/' + name).put(name);
 
             uploadTask01.on('state_changed', (snapshot) => {
                 const progress11 = (snapshot.bytesTransferred / snapshot.totalBytes) * 1;
@@ -1481,8 +1481,8 @@ const formCliente15 = document.querySelector('#form-cliente15');
 
                 },
                 function () {
-                    storage.ref('titulo3/' + name).getDownloadURL().then((url) => {
-                        db.collection('titulo3').add({
+                    storage.ref('titulo4/' + name).getDownloadURL().then((url) => {
+                        db.collection('titulo4').add({
                             descricao: comprovanteText,
                            
                         })
